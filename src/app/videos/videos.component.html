@@ -1,0 +1,24 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-1"></div>
+        <div class="col-2"><h1 class="display-1" style="font-family: 'Arial Black'">VIDEOS</h1></div>
+        <div class="col-6"></div>
+        <div class="col-2"><h4 class="text-end" style="font-family: 'Arial Black'; text-align: bottom;">FIND US ON</h4><i class="fab fa-youtube"></i></div>
+    </div>
+    <div class="row">
+        <div class="col-1"></div>
+        <div class="col-5">
+            <iframe width="642" height="361" src="https://www.youtube.com/embed/fvEE9irEbjY" title="INZO - OVERTHINKER (EMERALD GATES FLIP)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="col-5">
+            <table class="table table-light">
+                <tbody>
+                    <tr *ngFor="let video of videos;">
+                        <td style="color: rgb(195, 121, 241); font-weight: bold; text-align: center;"><a href={{video.vid}}>{{video.name}}</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col-1"></div>
+    </div>
+</div>

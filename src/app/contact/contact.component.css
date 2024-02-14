@@ -1,0 +1,25 @@
+.bottom-border {
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 2px solid;
+    box-shadow: none;
+}
+
+.column {
+    float: left;
+    width: 40%;
+    padding: 100px;
+}
+
+.column-pic {
+    float: left;
+    width: 40%;
+    padding: 10px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}

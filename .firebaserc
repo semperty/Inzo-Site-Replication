@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "inzo-app": {
+      "hosting": {
+        "inzo_site": [
+          "inzo-app"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "inzo-app"
+  }
+}

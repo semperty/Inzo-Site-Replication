@@ -1,0 +1,12 @@
+<table class="table table-light">
+  <tbody>
+    <tr *ngFor="let concert of concert;">
+      <td style="color: rgb(195, 121, 241); font-weight: bold;">{{concert.date}}</td>
+      <td style="width: 50%">{{concert.event}}</td>
+      <td style="color: rgb(195, 121, 241);">{{concert.location}}</td>
+      <td button type="button" class="btn btn-outline-dark btn-square-md" style="font-weight: bold; width: 50%;">RSVP</td>
+      <td button type="button" class="btn btn-dark btn-square-md" style="font-weight: bold; width: 50%; background-color: black;">TICKETS</td>
+    </tr>
+    <tr button type="button" class="btn btn-dark btn-square-md" style="font-weight: bold; width: 100%; background-color: black;">REQUEST A SHOW</tr>
+  </tbody>
+ </table>
